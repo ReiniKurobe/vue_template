@@ -1,0 +1,59 @@
+// /* -------------------------
+
+// CSS design rules: FLOCSS
+
+// 1.foundation (Selectors make it easier to override properties without using id or class.)
+//   ├ _reset.scss //reset.css
+//   ├ _var.scss   //site usage variable
+//   └ _mixin.scss //site usage mixin
+
+// 2.layout (Define a block for the entire site.)
+//   ├ _header.scss //class name is .l-header__xxx
+//   ├ _main.scss   //class name is .l-main__xxx
+//   ├ _side.scss   //class name is .l-side__xxx
+//   └ _footer.scss //class name is .l-footer__xxx
+
+// 3.component (Objects (modules) used in the site that are highly versatile.)
+//   ├ _radio.scss //class name is .c-radio__xxx
+//   ├ _input.scss //class name is .c-input__xxx
+//   ├ _step.scss //class name is .c-step__xxx
+//   ├ _button.scss //class name is .c-button__xxx
+//   ├ _table.scss //class name is .c-table__xxx
+//   ├ _modal.scss //class name is .c-modal__xxx
+//   ├ _slider.scss //class name is .c-slider__xxx
+//   ├ more ...
+
+// 4.project (Objects (modules) that are used only on a single page and are not very versatile.)
+//   ├ sitemap.scss //class name is .p-sitemap__xxx
+//   ├ sitepolicy.scss //class name is .p-sitepolicy__xxx
+//   ├ contact_form.scss //class name is .p-contact_form__xxx
+//   ├ more ...
+
+// 5.utility (Use it to deal temporarily.)
+//   └ _utility.scss //class name is .u-"property"__”value”　ex) .u-margin__bottom__large
+
+// ------------------------- */
+
+/* -------------------------
+  foundation
+-------------------------　*/
+
+@import "./foundation/_var";
+@import "./foundation/_mixin";
+@import "./foundation/_reset";
+
+/* -------------------------
+  layout
+-------------------------　*/
+
+/* -------------------------
+  component
+-------------------------　*/
+
+/* -------------------------
+  project
+-------------------------　*/
+
+/* -------------------------
+  utility
+-------------------------　*/

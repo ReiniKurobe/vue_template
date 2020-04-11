@@ -1,0 +1,5 @@
+node_modules
+dest/js
+dest/css
+.ds_store
+yarn-error.log
